@@ -1,0 +1,112 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Score-display {
+    display: flex;
+    font-size: calc(10px + 10vmin);
+    justify-content: space-between;
+    margin-right: calc(10px + 15vmin);
+    margin-left: calc(10px + 15vmin);
+    margin-top: calc(5px + 0vmin);
+    box-sizing: content-box;
+}
+
+.Score-buttons {
+    display: flex;
+    flex-direction: row;
+    font-size: calc(10px + 30vmin);
+    justify-content: space-between;
+    /*box-sizing: content-box;*/
+}
+
+.Score-Keeper-Red-buttons, .Score-Keeper-Blue-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -120%;
+
+}
+
+[class*="Score-Keeper-Blue-button-"], [class*="Score-Keeper-Red-button-"] {
+    width: 107%;
+    height: 33%;
+    border: thick whitesmoke;
+    text-align: center;
+}
+
+[class*="Score-Keeper-Blue-button-"] {
+    align-self: flex-end;
+    background-color: blue;
+}
+
+
+[class*="Score-Keeper-Red-button-"] {
+    background-color: red;
+}
+
+.Submit-button-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Submit-button {
+    background-color: white;
+    font-size: 450%;
+    border-radius: 12px;
+}
+
+.Corner-judge-app {
+    z-index: -1;
+}
+
+.modal-open {
+    z-index: 1000;
+}
+
+.fighter-select {
+    align-content: flex-start;
+    align-items: center;
+    display: flex;
+    font-size: 150%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6px;
+}
+
+select {
+    font-size: 100%;
+}
+
+.Modal-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+Button {
+    text-align: center;
+    font-size: 200%;
+    border: #282c34;
+    border-radius: 4px;
+    background-color: whitesmoke;
+
+}
+
+h2 {
+    text-align: center;
+}

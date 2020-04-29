@@ -1,0 +1,173 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Score-display {
+    display: flex;
+    font-size: calc(10px + 10vmin);
+    justify-content: space-between;
+    margin-right: calc(10px + 15vmin);
+    margin-left: calc(10px + 15vmin);
+    margin-top: calc(5px + 0vmin);
+    box-sizing: content-box;
+}
+
+.Name-display {
+    display: flex;
+    flex-direction: row;
+    font-size: calc(10px + 5vmin);
+    justify-content: space-between;
+    margin-right: calc(10px + 15vmin);
+    margin-left: calc(10px + 15vmin);
+    margin-top: calc(5px + 0vmin);
+    box-sizing: content-box;
+}
+.Blue-name {
+    align-self: flex-end;
+}
+
+.Score-buttons {
+    display: flex;
+    flex-direction: row;
+    font-size: calc(10px + 30vmin);
+    justify-content: space-between;
+    box-sizing: content-box;
+}
+.Winner-buttons {
+    display: flex;
+    flex-direction: row;
+    font-size: calc(10px + 10vmin);
+    justify-content: space-between;
+    box-sizing: content-box;
+}
+
+.Red-buttons, .Blue-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -140%;
+
+}
+
+.Winner-red-buttons, .Winner-blue-buttons {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    /*margin-bottom: -140%;*/
+
+}
+
+[class*="Blue-button-"], [class*="Red-button-"] {
+    width: 265%;
+    height: 33%;
+    border: thick whitesmoke;
+    text-align: center;
+}
+
+[class*="Winner-blue-button-"], [class*="Winner-red-button-"] {
+    width: 140%;
+    height: 100%;
+    border: thick whitesmoke;
+    text-align: center;
+}
+
+[class*="Blue-button-"] {
+    align-self: flex-end;
+    background-color: blue;
+}
+
+
+[class*="Red-button-"] {
+    background-color: red;
+}
+
+[class*="Winner-blue-button-"] {
+    align-self: flex-end;
+    background-color: blue;
+}
+
+
+[class*="Winner-red-button-"] {
+    background-color: red;
+}
+
+.Submit-button-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Submit-button {
+    background-color: white;
+    font-size: 450%;
+    border-radius: 12px;
+}
+
+.Corner-judge-app {
+    z-index: -1;
+}
+
+.modal-open {
+    z-index: 1000;
+}
+
+.fighter-select {
+    align-content: flex-start;
+    align-items: center;
+    display: flex;
+    font-size: 150%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6px;
+}
+
+.Board-items {
+    align-content: flex-start;
+    align-items: center;
+    display: flex;
+    font-size: 150%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6px;
+}
+.Board-items input {
+    height: 50%;
+    font-size: 80%;
+}
+
+
+select {
+    font-size: 100%;
+}
+
+.Modal-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+Button {
+    text-align: center;
+    font-size: 200%;
+    border: #282c34;
+    border-radius: 4px;
+    background-color: whitesmoke;
+
+}
+
+h2 {
+    text-align: center;
+}
